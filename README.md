@@ -2,14 +2,14 @@
 Simple port scanner written in Rust.
 
 ## Features:
-Scans target-ip for the first 1024 ports.
+Scans target-ip for either interesting ports (specified in the code, or give port(s) as an argument.
 
 ## Instructions:
 ```
-cargo run <target-ip>
+cargo run <target-ip> (<ports>)
 ```
 ## Todo:
 - [ ] Support scanning domain names
 - [ ] Multiple tagets
-- [ ] Specify ports to scan
+- [X] Specify ports to scan
 - [ ] Scan type
